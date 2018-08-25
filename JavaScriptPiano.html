@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Title-->
+    <title>JS Chords - Try Me!</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <!--Key buttons-->
+    <div class='container'>
+        <div class='row keys'>
+            <div class='col'>
+                <div data-key="65" class="key" id='65'>
+                    <kbd>A</kbd>
+                    <span class="sound">C Major</span>
+                </div>
+            </div>
+            <div class='col'>
+                <div data-key="83" class="key" id='83'>
+                    <kbd>S</kbd>
+                    <span class="sound">D Minor</span>
+                </div>
+            </div>
+            <div class='col'>
+                <div data-key="68" class="key" id='68'>
+                    <kbd>D</kbd>
+                    <span class="sound">E Minor</span>
+                </div>
+            </div>
+            <div class='col'>
+                <div data-key="70" class="key" id='70'>
+                    <kbd>F</kbd>
+                    <span class="sound">F Major</span>
+                </div>
+            </div>
+            <div class='col'>
+                <div data-key="71" class="key" id='71'>
+                    <kbd>G</kbd>
+                    <span class="sound">G Major</span>
+                </div>
+            </div>
+            <div class=' col '>
+                <div data-key="72" class="key" id='72'>
+                    <kbd>H</kbd>
+                    <span class="sound">A Minor</span>
+                </div>
+            </div>
+            <div class='col '>
+                <div data-key="74" class="key" id='74'>
+                    <kbd>J</kbd>
+                    <span class="sound">B Minor</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Audio elements storing sounds-->
+    <audio data-key="72" src="sounds/I_Do_Remember_Am_01.wav"></audio>
+    <audio data-key="74" src="sounds/I_Do_Remember_Bm_01.wav"></audio>
+    <audio data-key="65" src="sounds/I_Do_Remember_C_01.wav"></audio>
+    <audio data-key="83" src="sounds/I_Do_Remember_Dm_01.wav"></audio>
+    <audio data-key="68" src="sounds/I_Do_Remember_Em_01.wav"></audio>
+    <audio data-key="70" src="sounds/I_Do_Remember_F_01.wav"></audio>
+    <audio data-key="71" src="sounds/I_Do_Remember_G_01.wav"></audio>
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--Custom JS-->
+    <script src='static/js/main.js '></script>
+
+</body>
+
+</html>
