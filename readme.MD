@@ -56,4 +56,4 @@ This project was deployed to GitHub Pages and can be viewed at: <https://cianhub
 
 - The projects samples came from a free sample pack found at [Soundpacks.com](https://soundpacks.com/free-sound-packs/incredible-chords-vol-1/)
 
-- The idea for the project came from the 30 day coding challenge on [Javascript30.com](https://javascript30.com/)
+- The idea for the project came from the 30 day coding challenge at [Javascript30.com](https://javascript30.com/)
