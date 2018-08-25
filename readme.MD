@@ -48,7 +48,7 @@ This project was deployed to GitHub Pages and can be viewed at: <https://cianhub
 ## Installation
 
 1. Clone repository.
-2. Open JavaScriptPiano.html in a web browser.
+2. Open index.html in a web browser.
 
 ## Credits
 
